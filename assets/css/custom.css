@@ -1,3 +1,25 @@
+/* Utilities */
+section {
+	padding: 50px 0 !important;
+}
+
+.top_footer {
+    padding: 50px 0 !important;
+}
+
+.bottom_footer {
+    padding: 20px 0 !important;
+    padding-bottom: 50px !important;
+}
+
+.mix_p_1 {
+    padding: 2rem !important;
+}
+
+.active {
+    color: #03a5b0 !important;
+}
+
 /* Bottom Menu */
 .brand-logo img,
 .footer-brand-logo img {
@@ -8,3 +30,118 @@
 .full_screen,.full_screen .carousel-item {
 	min-height: 60vh !important;
 }
+
+/* Top button */
+.scrollup {
+	bottom: 50px;
+	color: #ffffff;
+	font-size: 24px;
+	height: 40px;
+	line-height: 40px;
+	position: fixed;
+	right: 20px;
+	text-align: center;
+	width: 40px;
+	z-index: 99;
+}
+
+/* Form Customization */
+textarea {
+    resize: none;
+}
+
+
+/* ========================== Footer Form Popup ========================== */
+.footer-sidebar-outer {
+	position: fixed;
+	bottom:0;
+	z-index:9999;
+	width: 275px;
+	left: 75px;
+	/*background: #3778B0;*/
+}
+
+.sidebar-form input::placeholder,
+.sidebar-form textarea::placeholder {
+    color: #fff !important;
+  }
+
+#book {
+    display: none;
+    background: rgba(55, 120, 176, 0.8);
+    padding: 10px 15px;
+}
+  
+.footer-left-sidebar {
+      color: #fff;
+      font-size: 17px;
+}
+
+select option {
+    padding: 10px !important;
+}
+
+.footer-collapse-btn-top-outer {
+      padding: 10px 10px;
+      cursor: pointer;
+      background: #3778B0;
+}
+
+.drop-msg-icon a i {
+      color: #fff;
+}
+
+.sidebar-form .form-group:last-child {
+      margin: 0px;
+}
+
+.sidebar-form .form-control {
+    background: transparent !important;
+    text-align: left;
+}
+
+.sidebar-form .form-control {
+    color: #fff !important;
+    height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sidebar-form textarea.form-control {
+    height: auto;
+}
+
+.sidebar-btn {
+    background: #3778B0;
+    color: #fff;
+}
+
+.sidebar-btn:hover {
+    background: #4f9fe4;
+    color: #fff;
+}
+
+.sidebar-btn:focus {
+    background: #3778B0;
+    color: #fff;
+}
+
+.footer-collapse-btn-top-outer.active .fa-caret-down:before {
+    content: "";
+}
+
+.more-btn i {
+	background: url("../images/icons/message.png") no-repeat center center;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-collapse-btn-top-outer.active  .more-btn i {
+	background: url("../images/icons/icon-close.png") no-repeat center center;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+  
