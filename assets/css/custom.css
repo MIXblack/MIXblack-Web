@@ -1,0 +1,10 @@
+/* Bottom Menu */
+.brand-logo img,
+.footer-brand-logo img {
+    width: 80%;
+}
+
+/* Slider Banner */
+.full_screen,.full_screen .carousel-item {
+	min-height: 60vh !important;
+}
